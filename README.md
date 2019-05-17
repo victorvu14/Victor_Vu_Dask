@@ -31,11 +31,7 @@ We are tasked with building a predictive model that can determine how many peopl
 
 ## Conclusions
 
-We created two different models to predict bike usage, with our results we believe that we can provide an accurate estimation of usage which can be of great importance for all of the involved parties.
-
-The two models were created since we determined that there was a great difference in usage from weekends to normal working days, this situation would need to be considered by the company to supply the correct amount of bicycles depending on the day of the week, since the demand changes drastically.
-
-Initially we had a baseline model with an r2 score of 0.765, however, after performing multiple data preparation steps and transformations we achieved a score of 0.897, which proves that our predicting capabilities improved immensely.
+Initially we had a baseline model with an r2 score of 0.3, however, after performing multiple data preparation steps and transformations we achieved a score of 0.8, which proves that our predicting capabilities improved immensely.
 
 When analyzing the data, we found that there are many patterns that we could have used to create even more models to get an even higher accuracy score, specifically the patters of time (based on peak hours) would probably give us great results, however, we felt that our models needed to work on a global scale, and that creating more would make them too specific to this particular case.
 
