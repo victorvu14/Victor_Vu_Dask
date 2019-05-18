@@ -1,6 +1,8 @@
 # Victor_Vu_Dask
 
-## Bike_Sharing_Prediction
+## Bike_Sharing_Prediction_with_Dask
+
+The aim of this project is to use Dask data structure instead of Pandas or Numpy. Pandas and Numpy are great libraries but they are not always computationally efficient, especially when there are GBs of data to manipulate. The solution to this problem is Dask. Dask is popularly known as a ‘parallel computing’ python library that has been designed to run across multiple systems. Dask can efficiently perform parallel computations on a single machine using multi-core CPUs. For example, if you have a quad core processor, Dask can effectively use all 4 cores of your system simultaneously for processing. In order to use lesser memory during computations, Dask stores the complete data on the disk, and uses chunks of data (smaller parts, rather than the whole data) from the disk for processing.
 
 For this project, we were given two datasets from Kaggle https://www.kaggle.com/marklvl/bike-sharing-dataset/home containing information about the Bike Sharing service in Washington D.C. "Capital Bikeshare"
 
@@ -31,7 +33,7 @@ We are tasked with building a predictive model that can determine how many peopl
 
 ## Conclusions
 
-Initially we had a baseline model with an r2 score of 0.3, however, after performing multiple data preparation steps and transformations we achieved a score of 0.8, which proves that our predicting capabilities improved immensely.
+Initially we had a baseline model with an r2 score of 0.76, however, after performing multiple data preparation steps and transformations we achieved a score of 0.92, which proves that our predicting capabilities improved immensely.
 
 When analyzing the data, we found that there are many patterns that we could have used to create even more models to get an even higher accuracy score, specifically the patters of time (based on peak hours) would probably give us great results, however, we felt that our models needed to work on a global scale, and that creating more would make them too specific to this particular case.
 
